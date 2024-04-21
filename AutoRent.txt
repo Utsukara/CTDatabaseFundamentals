@@ -1,0 +1,5 @@
+The AutoRent diagram is a 1-1 diagram that demonstrates that each car has a rental agreement. The car has properties like manufacturer to further describe the car, as well as,
+an availability marker to display if the car is being currently rented. The functional key is used to reference the rental agreement to be referenced when the car is being rented
+it also has the date of the rental agreement and the agreement description. Also, the functional key references the car that the agreement applies to. This allows efficiency in 
+seeing the agreement that is active with the currently rented car. With concise attributes and single functional keys that link contracts with the correlating cars and vice versa
+creates a concise database.
