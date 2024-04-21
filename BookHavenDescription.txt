@@ -1,0 +1,6 @@
+The BookHaven database that I outlined represents a database following 3NF. It ensures that all unique elements are linked together through their unique keys and each form 
+of data contains its specific attributes without interdependencies. Each form of data has its own primary key to be accessed and eliminates functional dependencies resulting 
+in defined attributes in each primary key. All attributes are focused on the key within the defined primary key. For BookHaven customers, transactions, books, and authors all
+have their defined primary keys, functional keys and attributes that describe and allow interactions with other keys. Customers includes the customer id as a primary key followed
+by a functional key for transactions and descriptions of the customer(name, email). All other data follows the same construct containing vital descriptors and functional keys to
+other necessary elements.
